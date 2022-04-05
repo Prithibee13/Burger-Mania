@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "Brad Givsone",
+      "comment": "Testy , juicy , best burger in town. Recomanded to all" ,
+      "img": "https://randomuser.me/api/portraits/men/9.jpg",
+      "rating" : 5.00
+    },
+    {
+      "id": 2,
+      "name": "Janice Jackson",
+      "comment": "Eat as your last day. Keep it up boys.",
+      "img": "https://randomuser.me/api/portraits/women/0.jpg",
+      "rating" : 4.50
+    },
+    {
+      "id": 3,
+      "name": "Alma Reynolds",
+      "comment": "Supar testy , mouth watering product. Just love it. Recommanded for mass people",
+      "img": "https://randomuser.me/api/portraits/women/21.jpg",
+      "rating" : 5.00
+    },
+    {
+      "id": 4,
+      "name": "Gina Simmons",
+      "comment" : "Love that shop. They make best buger in Town. This Doble Daker smoky is mind blowing Products",
+      "img": "https://randomuser.me/api/portraits/women/40.jpg",
+      "rating" : 5.00  
+    },
+
+    {
+      "id": 5,
+      "name": "Vernon Hansen",
+      "comment" : "Very Testy.But delivery is much slow than other restrurents",
+      "img": "https://randomuser.me/api/portraits/men/53.jpg",
+      "rating" : 4.00
+    },
+
+    {
+      "id": 6,
+      "name": "Morris Terry",
+      "comment" : "Poor services. But buger was very testy. Ingreadients was perfect in quantity and quality.",
+      "img": "https://randomuser.me/api/portraits/men/71.jpg",
+      "rating" : 4.50
+    },
+
+    {
+      "id": 7,
+      "name": "Celina Ward",
+      "comment": "Nice food. Very good packaging and serving. I love there product and consume them multiple time",
+      "img": "https://randomuser.me/api/portraits/women/3.jpg",
+      "rating" : 4.50
+    },
+    {
+      "id": 8,
+      "name": "Phillip Payne",
+      "comment": "Food was avobe avarage. Try to make better",
+      "img": "https://randomuser.me/api/portraits/men/97.jpg",
+      "rating" : 4.00
+    },
+    {
+      "id": 9,
+      "name": "Billy Ross",
+      "comment": "Food is Avarage. And staff is not cordial",
+      "img": "https://randomuser.me/api/portraits/men/76.jpg",
+      "rating" : 3.00
+    },
+    {
+      "id": 10,
+      "name": "Tracy Owens",
+      "comment": "Food is very testy. Staffs need to do better ",
+      "img": "https://randomuser.me/api/portraits/men/21.jpg",
+      "rating" : 4.00
+    },
+
+    {
+      "id": 11,
+      "name": "Terry Oliver",
+      "comment": "Food is too avarage. Not so good",
+      "img": "https://randomuser.me/api/portraits/women/67.jpg",
+      "rating" : 3.00
+    },
+    {
+      "id": 12,
+      "name": "Mason Evans",
+      "comment": "Food is not so good . Avarage type of service",
+      "img": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating" : 3.00
+    }
+
+    
+]
