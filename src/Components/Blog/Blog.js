@@ -3,9 +3,9 @@ import "./Blog.css"
 
 const Blog = () => {
     return (
-        <div>
+        <div className='p-16'>
         <h2 className='text-5xl font-semibold text-center'>A Good Developer must Know</h2>
-            <article className='container p-16 mb-5 mt-10 ml-10'>
+            <article className='container mb-5 mt-10 '>
                 <div className='mb-5'><h3 className='text-4xl font-semibold text-center'>What is Context API?</h3></div>
                 <div>
                     <p>
@@ -14,7 +14,7 @@ const Blog = () => {
                 </div>
             </article>
 
-            <article className='container p-10 mb-5 mt-10 ml-10'>
+            <article className='container p-10 mb-5 mt-10'>
                 <div className="mb-5">
                     <h3 className="text-4xl font-semibold text-center">
                         What is Semantic Tags?
@@ -22,7 +22,15 @@ const Blog = () => {
                 </div>
 
                 <div>
-                    <p></p>
+                    <p>Semantic tags is intoduced in HTML5. Before HTML5 , all tags call non-semantic tags. This tags non cleraify about it contents. So They intoduce the sementic tags. These tags can clearly define it contents. But none of these tags not give any design advantages without css. </p>
+                </div>
+            </article>
+
+            <article className='container p-10 mb-5 mt-10'>
+                <div className="mb-5">
+                    <h3 className="text-4xl font-semibold text-center">
+                        
+                    </h3>
                 </div>
             </article>
         </div>
