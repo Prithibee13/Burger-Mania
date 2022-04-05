@@ -1,6 +1,6 @@
 import React from 'react';
 import useData from '../../Hooks/useData';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 
 const Areachart = () => 
@@ -22,6 +22,7 @@ const Areachart = () =>
           <XAxis dataKey="month" />
           <YAxis />
           <Tooltip />
+          <Legend/>
           <Area type="monotone" dataKey="investment" stackId="1" stroke="#FF5151" fill="#FF5151" />
           <Area type="monotone" dataKey="revenue" stackId="1" stroke="#161E54" fill="#161E54" />
         </AreaChart>

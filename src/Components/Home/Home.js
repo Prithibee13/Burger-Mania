@@ -24,7 +24,7 @@ const Home = () =>
                         <button className='border-2 border-transparent rounded-md mb-5 mt-5'>Learn More</button>
                     </div>
                     <div>
-                        <img alt="burger" className='rounded w-100' src='https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60'></img>
+                        <img alt="burger" className='rounded w-100 ' src='https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60'></img>
                     </div>
                     </div>
                 </div>
