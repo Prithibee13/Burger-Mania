@@ -1,4 +1,6 @@
 import React from 'react';
+import StarRating from '../../Common/starRating/StarRating';
+import TopReview from '../TopReview/TopReviews';
 import Reviews from './Reviews/Reviews';
 
 const Review = () => {
