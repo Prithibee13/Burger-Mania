@@ -1,9 +1,19 @@
 import React from 'react';
+import useReview from '../../../Hooks/useReview';
+import ReviewMaker from '../ReviewMaker/ReviewMaker';
 
-const Reviews = () => {
+const Reviews = () =>
+{
+    const [review , setReview] = useReview()  
     return (
         <div>
-            
+            <div className="container">
+                <div className="grid grid-cols-3 gap-5">
+                    {
+                        review.map(comment => <ReviewMaker key={comment.id} review = {comment}></ReviewMaker>)
+                    }
+                </div>
+            </div>
         </div>
     );
 };
