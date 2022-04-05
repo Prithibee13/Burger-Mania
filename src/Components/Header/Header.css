@@ -1,0 +1,10 @@
+.nav
+{
+    background-color: #FF7F3F;
+}
+
+nav a 
+{
+    text-transform: uppercase;
+    color: white;
+}
