@@ -14,7 +14,7 @@ const Blog = () => {
                 </div>
             </article>
 
-            <article className='container p-10 mb-5 mt-10'>
+            <article className='container mb-5 mt-10'>
                 <div className="mb-5">
                     <h3 className="text-4xl font-semibold text-center">
                         What is Semantic Tags?
@@ -26,12 +26,19 @@ const Blog = () => {
                 </div>
             </article>
 
-            <article className='container p-10 mb-5 mt-10'>
+            <article className='container  mb-5 mt-10'>
                 <div className="mb-5">
                     <h3 className="text-4xl font-semibold text-center">
-                        
+                        Difference Between inline and inline-block properties
                     </h3>
-                </div>
+                    </div>
+
+                    <div>
+                        <p>
+                            (Display : inline) this css property display elements like inline html element(e.g. span). No height or width properties not effect these elements.
+                        </p>
+                        <p>(Display : inline-block) this css property display elements like inline-block container. they show as inline element but we can add height and width property also on them</p>
+                    </div>
             </article>
         </div>
     );
