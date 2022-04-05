@@ -15,12 +15,12 @@ const Home = () =>
     return (
         <div>
             <section className='home'>
-                <div className="container mt-20 p-10">
+                <div className="container mt-20 p-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className='my-auto'>    
                         <h1 className='text-6xl font-bold mb-5'>Burger Mania</h1>
                         <h2 className='text-5xl font-semibold mb-2'>Deadly Double Daker Smoky Bite</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate animi rem sunt placeat ducimus? Quisquam et quis delectus pariatur quo?</p>
+                        <p className='text-2xl '>Juicy , Double petty monster. Experience the Super naga style special burger in our restro!!!. Full of vegitable and spicy tests.</p>
                         <button className='border-2 border-transparent rounded-md mb-5 mt-5'>Learn More</button>
                     </div>
                     <div>
@@ -30,9 +30,10 @@ const Home = () =>
                 </div>
             </section>
 
-        <section className='top-review'>
+        <section className='top-review text-center'>
+        <h2 className='text-5xl font-semibold'>Our Top Clients </h2>
         <TopReviews></TopReviews>
-        <button className='border-2 border-transparent rounded-md p-5 mb-10' onClick={toReviewPage}>See More Reviews</button>
+        <button className='border-2 border-transparent rounded-md p-5 mb-10 ' onClick={toReviewPage}>See More Reviews</button>
         </section>
         </div>
     );

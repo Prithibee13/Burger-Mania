@@ -23,8 +23,7 @@ const Linechart = () =>
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="investment" stroke="#FF5151" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="revenue" stroke="#161E54" />
+          <Line type="monotone" dataKey="sell" stroke="#FF5151" activeDot={{ r: 8 }} />
         </LineChart>
     );
 };

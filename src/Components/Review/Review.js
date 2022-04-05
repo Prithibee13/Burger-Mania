@@ -6,7 +6,7 @@ import Reviews from './Reviews/Reviews';
 const Review = () => {
     return (
         <div>
-            <section className='p-10'>
+            <section className='p-16'>
                 <div className="container mt-20 ">
                     <div className="grid grid-cols-2 gap-5">
                         <div>
@@ -21,7 +21,8 @@ const Review = () => {
                 </div>
             </section>
 
-            <section className='p-10'>
+            <section className='p-16'>
+                <h2 className='text-5xl font-semibold text-center h2'>What our customers Say!</h2>
                 <Reviews></Reviews>
             </section>
             

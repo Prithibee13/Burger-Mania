@@ -7,19 +7,23 @@ import "./Dashbord.css"
 
 const Dashboard = () => {
     return (
-        <section className='p-10 mt-20'>
+        <section className='p-16 mt-20'>
             <div className="container">
                 <div className="grid grid-cols-2 gap-10">
                 <div className='shadow-lg p-10'>
                     <TotalReview></TotalReview>
                 </div>
-                    <div className='mb-5 shadow-lg p-10'><Barchart></Barchart></div>
                     <div className='mb-5 shadow-lg p-10'>
+                    <h3 className='text-4xl mb-5'>INVESTMENT VS. REVENUE</h3>
+                    <Barchart></Barchart>
+                    </div>
+                    <div className='mb-5 shadow-lg p-10'>
+                        <h3 className='text-4xl mb-5'>INVESTMENT VS. REVENUE</h3>
                         <Areachart></Areachart>
                     </div>
 
                     <div className='mb-5 shadow-lg p-10'>
-                        
+                        <h3 className='text-4xl mb-5'>MONTH WISE SELL</h3>                        
                     <Linechart></Linechart>
                     </div>                    
                 </div>
